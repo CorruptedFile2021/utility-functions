@@ -32,7 +32,6 @@ def download_file(url:str,file_name:str,overwrite_file=False):
         overwrite_file: replace the file if a file of the same name exists
     
     """
-    
 
     if overwrite_file == False:
         if basic_functions.file_exists(file_name):
@@ -43,4 +42,9 @@ def download_file(url:str,file_name:str,overwrite_file=False):
         urllib.request.urlretrieve(url=url,filename=file_name)
         
 def open_url(url:str):
+    """ opens a url on the users default webbrowser
+    Arguments:
+        url: url to open the site
+    """
     webbrowser.open(url=url)
+

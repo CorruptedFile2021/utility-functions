@@ -7,5 +7,5 @@
 #### Functions for other Libraries may also be added in the future, Currently These libraries are planned to have utility-functions written for them.
 
 `opencv-python` 
-`os`
+
 
